@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 67px 63px 47px;
+}
+nav div {
+  display: flex;
+  align-items: center;
+  width: 179px;
+  height: 58px;
+  top: 67px;
+  left: 63px;
+  justify-content: space-between;
+
+}
+nav img {
+  width: 70px;
+  height: 45px;
+  display: flex;
+}
+h4 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+ul {
+  display: flex;
+  gap: 100px;
+}
+nav li {
+  list-style: none;
+}
+a {
+  color: rgba(158, 158, 158, 1);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(0, 0, 0, 1);
+}
+nav button {
+  background: rgba(29, 117, 249, 1);
+  padding: 9px 70px;
+  color: white;
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+  border-radius: 5px;
+  border-style: none;
+}
+main {
+  display: flex;
+  background: rgba(249, 178, 29, 1);
+  border-radius: 10px;
+  padding: 47px 63px;
+  justify-content: space-between;
+
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1 {
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 86px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.test p {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.btn {
+  background: rgba(29, 117, 249, 1);
+  padding: 9px 70px;
+  color: white;
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+  border-radius: 5px;
+  border-style: none;
+  margin-top: 55px;
+}
+.test1 {
+  text-align: center;
+  margin-top: 50px;
+}
+h2 {
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 86px;
+  text-align: left;
+  text-align: center;
+}
+.test1 p {
+  font-family: Inter;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 54px;
+}
+.test1 button {
+  background: rgba(29, 117, 249, 1);
+  color: white;
+  width: 700px;
+  height: 197px;
+  border-radius: 32px;
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 86px;
+  text-align: center;
+  border-style: none;
+  margin: 0px 15px;
+}
+.item {
+  text-align: center;
+  background: rgba(198, 242, 93, 1);
+  margin: 90px 0 90px;
+  padding: 94px 0 140px 0px;
+  border-radius: 30px;
+}
+h3 {
+  font-family: Inter;
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 32px;
+  text-align: center;
+  padding: 10px;
+}
+.item p {
+  font-family: Inter;
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  padding: 32px;
+}
+.sirc {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 auto;
+}
+.items {
+  background: rgba(29, 117, 249, 1);
+  padding: 55px;
+  border-radius: 30px;
+}
+.item1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.items h1 {
+  font-family: Inter;
+  font-size: 82px;
+  font-weight: 800;
+  line-height: 32px;
+  text-align: left;
+  display: inline-block;
+}
+
+.text {
+  margin-top: 60px;
+}
+.text button {
+  width: 456px;
+  height: 166px;
+  border-radius: 24px;
+  font-family: Inter;
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+  color: rgba(29, 117, 249, 1);
+  background: rgba(255, 255, 255, 1);
+  border-style: none;
+  margin: 0px 15px;
+
+  
+}
+.text p {
+  font-family: Inter;
+  font-size: 28px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  padding-top: 15px;
+  margin: 0px 15px;
+
+}
+.text img {
+  width: 314px;
+  height: 418px;
+}
+.number {
+  display: flex;
+  justify-content: space-around;
+
+}
+.num {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: space-between;
+  width: 550px;
+}
+.numb {
+  width: 100px;
+  height: 100px;
+  background: rgba(198, 242, 93, 1);
+  border-radius: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Inter;
+font-size: 82px;
+font-weight: 700;
+line-height: 46px;
+}
+.num p{
+    font-family: Inter;
+font-size: 40px;
+font-weight: 500;
+line-height: 35px;
+text-align: left;
+}
+
